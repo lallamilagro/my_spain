@@ -15,16 +15,16 @@ import environ
 
 
 # Environment variables
-env=environ.Env(
-    DEBUG=(bool, False),
-)
+env = environ.Env(DEBUG=(bool, False),)
 environ.Env.read_env()
 
-SECRET_KEY=env('SECRET_KEY')
+DEBUG = env('DEBUG')
+TEMPLATE_DEBUG = DEBUG
+
+SECRET_KEY = env('SECRET_KEY')
 
 DATABASES = {
     'default': env.db(),
-    'extra': env.db('SQLITE_URL', default='sqlite:////tmp/my-tmp-sqlite.db')
 }
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
