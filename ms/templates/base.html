@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+</head>
+
+<body>
+            
+        {% include 'header.html' %}
+        
+        {% block content %}
+        {% endblock content %}
+
+        {% include 'footer.html' %}
+
+    
+</body>
+
+</html>

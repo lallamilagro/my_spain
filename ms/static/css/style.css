@@ -1,0 +1,141 @@
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+wrapper {
+	min-width: 1000px;
+	max-width: 2000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+/* Link
+-----------------------------------------------------------------------------*/
+a:link {
+	color: rgb(255, 255, 255); 
+}
+
+a:visited {
+	color: rgb(255, 255, 255);
+  }
+
+a:hover {
+	color: #fdfdfd; 
+  }
+
+a:active {
+	color: rgb(185, 210, 255); 
+  }
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header{
+	font-size: 1.5vw;
+	text-align: justify; 
+	letter-spacing: 1px; 
+	height: 3em; 
+	padding: 1em 10%; 
+	background: #2c3e50; 
+	color: #fff;
+}
+
+header::after { 
+	content: ''; 
+	display: inline-block; 
+	width: 100%; 
+}
+
+header h1,
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    padding: 0 0.8em;
+    white-space: nowrap;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 270px 0 0;
+}
+
+
+/* Slider
+----------------------------------------------------------------------------*/
+#slider {
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	margin: 0 auto;
+}
+
+#sliders .image {
+	width: 75%;
+	height: auto;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+article img {
+	width: 100%;
+}
+
+#desktop:checked ~ #slider {
+	max-width: 960px;
+}
+
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	background: #FFACAA;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+	position: relative;
+	margin-top: -10px;
+	height: 40px;
+	clear:both;
+	background: rgb(177, 177, 177);
+} 
+
+p {
+	text-align: center;
+}
