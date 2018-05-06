@@ -102,6 +102,7 @@ ENV/
 
 #Database
 *.db
+*.sqlite3
 
 #Pytest
 /.pytest_cache
