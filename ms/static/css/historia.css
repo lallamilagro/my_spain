@@ -1,0 +1,33 @@
+body {
+    background-image: url('../img/fonhistoria.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(253, 250, 250);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    font: 2em Arial, sans-serif;
+    text-shadow:  #97b6f0 0 0 25px;
+}
+
+h3 {    
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: #97b6f0 0 0 15px;
+}
+
+h4 {
+    font-size: 18px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    text-indent: 3%;
+    text-shadow: rgb(10, 10, 10) 0 0 3px;
+}
