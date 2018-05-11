@@ -3,8 +3,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-class HistoriaView(TemplateView):
+class HistoryView(TemplateView):
 
-    template_name = 'page/historia.html'
+    template_name = 'page/history.html'
 
    
