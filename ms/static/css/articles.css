@@ -1,0 +1,14 @@
+body {
+    background-image: url('../img/fon_app.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(253, 250, 250);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    font: 2em Arial, sans-serif;
+    text-shadow:  #97b6f0 0 0 25px;
+}

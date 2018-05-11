@@ -25,4 +25,5 @@ urlpatterns = [
     path('', views.HomeView.as_view(), name='home'),
     path('blog/', include('blog.urls')),
     path('history/', include('history.urls')),
+    path('articles/', include('articles.urls')),
 ]
