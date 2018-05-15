@@ -1,32 +1,7 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyc
 
-# Distribution / packaging
-.Python
-env/
-develop-eggs/
-eggs/
-.eggs/
-*.egg-info/
-*.egg
-
-# pyenv
-.python-version
-
-# dotenv
 .env
 
-# virtualenv
-.venv
-venv/
-ENV/
-
-#Database
 *.db
-*.sqlite3
-
-#Pytest
-/.pytest_cache
-__pycache__
