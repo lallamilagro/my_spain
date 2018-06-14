@@ -8,7 +8,6 @@ class TestHomePage(TestCase):
         self.assertEqual(response.status_code, 200)
 
 
-  
 class TestBlogPage(TestCase):
 
     def test_page_exists(self):
