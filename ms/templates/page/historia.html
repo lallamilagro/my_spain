@@ -1,0 +1,54 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brevemente sobre la historia</title>
+    <link rel="stylesheet" type="text/css" href="{% static "css/historia.css" %}">
+</head>
+<body>
+
+   <h2>Historia de España</h2>
+   <hr>
+   <h4><ul>
+        <li><a href="#Epoca">Época prerromana</a></li>
+        <li><a href="#Hispania">Hispania: el Imperio Romano y el Reino Gótico</a></li>
+        <li><a href="#Iberia">La Iberia musulmana</a></li>
+        <li><a href="#Reconquista">La Reconquista</a></li>
+        <li><a href="#Napoleon">Napoleón y la invasión francesa</a></li>
+        <li><a href="#Guerra">La Guerra Civil llega a España</a></li>
+    </ul></h4>
+   <h3 id="Epoca">Época prerromana</h3>
+   <p> Aunque las excavaciones arqueológicas y los fósiles resultantes encontrados en España en la Sierra de Atapuerca sugieran que la Península Ibérica fue poblada ya desde hace 1,2 millones de años, no fue sino hasta hace aproximadamente 35.000 años que los humanos modernos llegaron por primera vez a la península, viajando desde el norte a pie. La mejor prueba de la presencia del hombre del Cromañón (o tal vez incluso del Neanderthal) son las famosas pinturas de la Cueva de Altamira en el norte de España, unas pinturas creadas entre los 35.600 y 13.500 años antes de Cristo.</p>
+   <p>La "semi-mítica ciudad" de Tarteso apareció en el sur de la Península Ibérica aproximadamente el año 1100 aC, una ciudad donde floreció el comercio de oro y plata con los fenicios y los griegos, según relatan los escritos de Estrabón y varios escritos bíblicos. Entre los años 800  y 300 aC, navegantes fenicios y griegos establecieron colonias comerciales a lo largo de la costa mediterránea. Por un breve tiempo, los cartagineses mantuvieron control sobre gran parte de la vertiente mediterránea de la península, hasta que fueron derrotados por los romanos en las guerras púnicas.</p>
+   <br>
+   <h3 id="Hispania">Hispania: el Imperio Romano y el Reino Gótico</h3>
+   <img src="{% static "img/historia001.jpg" %}" align="right" width="15%" title="Museo de Arte Romano en Mérida">
+   <p>Hispania era el nombre dado a la región ahora conocida como España durante el Imperio Romano. Durante la Segunda Guerra Púnica, el Imperio Romano, que se hallaba en constante expansión, capturó colonias comerciales cartagineses de la costa mediterránea desde el año 210 al 205 aC aproximadamente. En total, le llevó al imperio romano dos siglos para conquistar la Península Ibérica, aunque posteriormente mantuviera el control sobre la región durante seis siglos.</p>
+   <p>Debido a su ubicación geográfica y sus puertos en el Mediterráneo y el Atlántico, Hispania se convirtió en un importante depósito del mercado romano y una de las regiones más importantes del Imperio. Fue durante la época del imperio romano, que Hispania experimentó un importante cambio cultural, que terminaría dejando una impresión permanente. Las culturas y las lenguas de los pueblos ibéricos y celtas se latinizaron poco a poco bajo el dominio romano. El cristianismo fue introducido en el siglo I dC, o al comienzo de la era común y a finales del siglo segundo ya se había extendido por todo el territorio. Hoy en día podemos comprobar como la mayoría de las lenguas de España, la religión y la base de sus leyes se remontan a este período histórico, uno de los más importantes de su historia.</p>
+   <p>La soberanía del Imperio Romano sobre Hispania empezó a debilitarse en el año 409, cuando los suevos y vándalos germánicos junto con los alanos cruzaron el Rin y asolaron la Galia hasta que los visigodos los expulsaron a Iberia ese mismo año. Bajo el dominio visigodo, y como gran parte del Imperio Romano occidental se había desintegrado, la sociedad y la economía de la región se simplificaron en gran manera, pero incluso después de estos cambios, los regímenes sucesores mantuvieron muchas de las instituciones y leyes del Bajo Imperio, incluyendo el cristianismo.</p>
+   <br>
+   <h3 id="Iberia">La Iberia musulmana</h3>
+   <p>Entre los años 711 y 718, casi la totalidad de la Península Ibérica fue conquistada por los ejércitos musulmanes árabes procedentes del norte de África, una conquista que formaba parte de la expansión del Califato Meya. Sólo un área pequeña y montañosa en el noroeste de la península logró evitar la invasión inicial.</p>
+   <p>A raíz de la conquista, a los cristianos y judíos de la región se les asignó la lamentable clase social de dhimmi. Aunque no les estaba prohibido practicar su fe libremente dentro de sus propias comunidades, las personas denominadas dhimmi se las subordinaban a los musulmanes y estaban obligadas a pagar un impuesto especial a la vez que sus derechos legales y sociales eran inferiores a las de los seguidores del Islam. Debido a esto, y para poder conservar todos sus derechos y estatus social, muchos nativos ibéricos en Al-Andalus (el nombre dado a Iberia durante la dominación musulmana) comenzaron a convertirse al Islam, una conversión que se produjo a un ritmo bastante rápido. De hecho, a finales del siglo X los muladíes (musulmanes de la etnia ibérica) constituían la mayoría de la población de Al-Andalus.</p>
+   <p>El siglo XI vio la fractura del Al-Andalus en los pequeños reinos rivales de taifas, un hecho que permitió a las pequeñas comunidades cristianas ampliar enormemente sus territorios. Sin embargo, cuando las sectas islámicas gobernantes, almorávides y almohades, llegaron desde el norte de África consiguieron restaurar la unidad de la región, dando lugar a otros más de 100 años de fortunas musulmanes y revertir algunos de los logros alcanzados por los cristianos.</p>
+   <br>
+   <h3 id="Reconquista">La Reconquista</h3>
+   <p>La Reconquista se conoce como el período de la historia de España durante el cual los cristianos de la Península Ibérica lucharon contra el poder musulmán para recuperar y ampliaron sus respectivos reinos. Aunque Al-Andalus fue mayormente restaurado en el siglo XI después de haberse visto dividido  en los reinos de taifas, con la toma de Toledo hacia finales de ese siglo (1085) se observó un cambio en el poder en favor de los reinos cristianos. Los musulmanes se recuperaron en gran medida en el siglo XII, sin embargo, cuando gran parte del sur de la península cayó a las fuerzas cristianas en el siglo XIII (Córdoba en 1236 y Sevilla en 1248), sólo Granada se mantuvo como un enclave musulmán.</p>
+   <p>El final del dominio musulmán en España comenzó con la unión en matrimonio de Isabel I de Castilla y Fernando II de Aragón que sucedió en 1469 al unir sus dos reinos. En 1478 conquistaron las Islas Canarias, y en 1492, las fuerzas combinadas de Castilla y Aragón trabajaron al unísono para capturar el Emirato de Granada, lo que puso fin a 781 años de hegemonía islámica en la Península Ibérica.</p>
+   <p>Como se recordará por la clase de historia, el 1492 fue también el año en que Cristóbal Colón descubrió el Nuevo Mundo, un viaje financiado en exclusiva por la reina Isabel. Esto llevaría más adelante a una gran expansión colonial en las nuevas tierras. Al igual que otros reyes del renacimiento, los Reyes Católicos centralizado el poder real a expensas de la nobleza local, y  dieron por nombre a la totalidad de su reino, España. Como resultado de las grandes reformas llevadas a cabo por los monarcas en lo político, religioso, jurídico y militar, España se convirtió en la primera potencia mundial.</p>
+   <br>
+   <h3 id="Napoleon">Napoleón y la invasión francesa</h3>
+   <p>En 1807, el rey español Carlos IV firmó en secreto el Tratado de Fontainebleau con el gobernante francés Napoleón Bonaparte, un tratado en el que se acordó que Portugal y todos los dominios portugueses fueran divididos entre los dos firmantes. Con esto, Napoleón se quería asegurar el bloqueo continental que había impuesto a Gran Bretaña en 1806 por la captura de los puertos portugueses. El ministro español Manuel de Godoy, también estuvo presente en el momento de la firma del tratado.</p>
+   <p>Por su parte, España actuó lentamente con respecto a la ocupación, y Napoleón, que era plenamente consciente del deteriorado estado de la economía y administración española así como su fragilidad política y su debilidad como aliado, comenzó posicionar tropas francesas en España en preparación para una invasión francesa de Portugal. Una vez completada esta fase, Napoleón continuó enviando tropas francesas a España.</p>
+   <p>La presencia de tropas francesas provocó la irritación de los españoles, lo que acabó resultando en el  Motín de Aranjuez y en marzo de 1808  la abdicación de Carlos IV de España en favor de su hijo Fernando VII. Napoleón había acumulado cerca de 100.000 tropas en España en ese momento, y Carlos IV esperaba que el gobernante francés le ayudara a recuperar el trono. Sin embargo, no sólo Napoleón se negó a ayudarle, sino que también se negó a reconocer a su hijo, Fernando como rey, y en su lugar presionó a los monarcas españoles para que le cedieran el trono en el que instaló a su hermano mayor como Rey José I.</p>
+   <p>José Bonaparte, fue muy denostado por los españoles, y la revuelta del 2 de mayo de 1808 era sólo uno de los muchos levantamientos liderados por los españoles en contra de la dominación francesa. Colectivamente estas revueltas provocaron la Guerra de la Independencia Española. Inicialmente, en esta guerra, las fuerzas de Napoleón fueron capaces de hacer retroceder a los desordenados ejércitos españoles, pero debido a las valientes acciones de guerrillas españolas y las fuerzas anglo-portuguesas de Wellington, junto con la pérdida devastadora de Napoleón durante la invasión de Rusia, las tropas francesas fueron finalmente derrocado en 1814 y el rey Fernando VII fue instalado como el nuevo rey.</p>
+   <br>
+   <h3 id="Guerra">La Guerra Civil llega a España</h3>
+   <p>A principios del siglo XX, las fuertes pérdidas, como resultado de los intentos de España por colonizar partes de África, comenzaron a minar la autoridad del país. Desde 1923 a 1931, el país quedó bajo el gobierno autoritario del general Miguel Primo de Rivera, un período que concluyó con el establecimiento de la Segunda República Española. Entre otras medidas, el liderazgo de la nueva República ofreció la autonomía política para el País Vasco, Galicia y Cataluña, y les dio derecho al voto a las mujeres.</p>
+   <p>La Guerra Civil española entre las fuerzas republicanas y las fuerzas nacionalistas rebeldes arrasó el país desde 1936 a 1939 y se cobró la vida de unas 500.000 personas. Otro medio millón de personas abandonaron el país, y la mayoría acabó en América del Sur, especialmente Argentina. Las fuerzas nacionalistas respaldadas por la Alemania nazi y la Italia fascista fueron finalmente victoriosas y el General Francisco Franco fue instalado como el nuevo gobernante de España.</p>
+
+</body>
+</html>
+{% endblock content %}
